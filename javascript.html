@@ -1,0 +1,101 @@
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time   <  10)  {
+  greeting = "Good morning";
+} else if (time >  10) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>crud aplication</title>
+</head>
+
+<body style="color: white;background-color: rgba(20, 19, 19, 0.788);">
+  <h1>welcome to javascript ............</h1>
+ <!--- <div class="coctainer mt-5">
+    <div class="text-center">
+      <h1>CRUD Aplication </h1>
+    </div>
+    <div class="main row justify-content-center">
+      <form action="" id="student-form " class="row justify-content-center mb-4" autocomplete="off">
+        <div class="col-10  col-md-8  mb-3">
+          <label for="firstname">First Name:</label>
+          <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+        </div>
+
+        <div class="col-10  col-md-8 mb-3">
+          <label for="lasttname">Last Name:</label>
+          <input type="text" class="form-control" id="Lastname" placeholder="Enter last name">
+        </div>
+
+        <div class="col-10   col-md-8 mb-3">
+          <label for="rollno">Roll No:</label>
+          <input type="text" class="form-control" id="roll no" placeholder="Enter Roll no">
+        </div>
+
+        <div class="col-10  col-md-8 ">
+          <input class="btn btn-success add-btn" type="submit" value="submit">
+        </div>
+      </form>
+      <div class="col-10 mb-3">
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr>
+              <th>firsr name</th>
+              <th>last name</th>
+              <th>Roll no</th>
+              <th>Auction</th>
+
+            </tr>
+          </thead>
+          <tbody class="student-list mt-5">
+            <tr>
+              <td>dear</td>
+              <td>Progammer</td>
+              <td>25</td>
+              <td><a href="" class="btn btn-warning btn-sm edit">edit</a>
+                <a href="" class="btn btn-danger btn-sm delete">Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>-->
+  <form id ="myForm">
+    <label for="nameInput">Name:</label>
+    <input type ="text"id="nameInput"placeholder="Enter your name">
+    <button type="submit">submit</button>
+  </form>
+  <div class="user-details">
+    <h3>USER DETAILS:</h3>
+    <h2 id="name" style ="color:blue;"></h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
